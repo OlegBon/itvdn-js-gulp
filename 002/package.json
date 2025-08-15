@@ -1,0 +1,15 @@
+{
+  "name": "002 Features and capabilities Gulp",
+  "version": "1.0.0",
+  "description": "Learn how to create different variations of gulpfile for different environments. Explore variants of creating tasks and executing them when called. Learn the basic methods of the gulp.js API and create familiarisation examples.",
+  "license": "ISC",
+  "author": "OlegBon",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1"
+  }
+}
