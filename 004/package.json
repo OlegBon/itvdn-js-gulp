@@ -1,0 +1,53 @@
+{
+  "name": "004 Creating a page",
+  "version": "1.0.0",
+  "description": "Create a file and folder structure for easy website development.",
+  "license": "ISC",
+  "author": "OlegBon",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp --gulpfile ./gulpfile.js/index.js dev",
+    "jsLint": "gulp --gulpfile ./gulpfile.js/index.js linter",
+    "htmlLint": "gulp --gulpfile ./gulpfile.js/index.js htmllint",
+    "build": "gulp --gulpfile ./gulpfile.js/index.js build",
+    "tasks": "gulp --gulpfile ./gulpfile.js/index.js --tasks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:OlegBon/itvdn-js-gulp.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.3",
+    "browser-sync": "^3.0.4",
+    "eslint": "^9.33.0",
+    "eslint-config-google": "^0.14.0",
+    "gulp": "^5.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-sass": "^6.0.1",
+    "postcss-combine-media-query": "^2.0.0",
+    "sass": "^1.90.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.0",
+    "del": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html": "^6.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-processhtml": "^1.2.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp.spritesmith": "^6.13.1",
+    "normalize.css": "^8.0.1"
+  }
+}
