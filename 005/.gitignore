@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Gulp output
+# app/html/
+# dist/
+# build/
+
+# Env config
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+/dist
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Git
+.git/
